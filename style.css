@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  
 .navbar  { 
   position: fixed;
   top: 0;
@@ -138,4 +139,70 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+.date-social-media {
+ font-family: 'Open sans', sans-serif;
+ font-size: 0.8rem;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.shape-of-button {
+  border-radius: 50%;
+  background-color: #e2e2e2;
+  color: black;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  border: 1px solid #eee;
+}
+
+.shape-of-button:hover{
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.shape-of-button-void-structure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.another-realize-icons > a > [name~="bookmark-outline"], .another-realize-icons > a > [name~="chatbox-outline"] {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.relocation-numbers-messages {
+  font-size: 0.65rem;
+  position: relative;
+  right: 1.5rem;
+  bottom: 0.6rem;
+  color: black;
+}
+
+.section-paragraph {
+  width: 34rem;
+  color: black;
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+
+.paragraph-links {
+  color: #326891;
+  text-decoration: underline;
+  text-decoration-color: #326891;
+}
+
+.paragraph-links:hover {
+  text-decoration: none;
+}
+
 
